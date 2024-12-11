@@ -1,0 +1,2 @@
+config SHIELD_BLUEBELT
+    def_bool $(shields_list_contains,bluebelt)
