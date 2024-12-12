@@ -1,4 +1,4 @@
-#include <physcial_layouts.dtsi>    
+#include <physical_layouts.dtsi>    
 
 / {
     bluebelt_physical_layout: bluebelt_physical_layout {
