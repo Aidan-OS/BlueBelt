@@ -1,0 +1,20 @@
+#include <physcial_layouts.dtsi>    
+
+/ {
+    bluebelt_physical_layout: bluebelt_physical_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "BlueBelt";
+        transform = <&default_transform>;
+        kscan = <&kscan0>;
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0   30       0     0     0>
+            , <&key_physical_attrs 100 100  100    0       0     0     0>
+            , <&key_physical_attrs 100 100  200    0       0     0     0>
+            , <&key_physical_attrs 100 100  300   30       0     0     0>
+            , <&key_physical_attrs 100 100    0  130       0     0     0>
+            , <&key_physical_attrs 100 100  100  100       0     0     0>
+            , <&key_physical_attrs 100 100  200  100       0     0     0>
+            , <&key_physical_attrs 100 100  300  130       0     0     0>
+            ;
+    };
+};
