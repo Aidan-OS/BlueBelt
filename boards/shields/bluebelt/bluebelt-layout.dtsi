@@ -4,7 +4,7 @@
     bluebelt_physical_layout: bluebelt_physical_layout {
         compatible = "zmk,physical-layout";
         display-name = "BlueBelt";
-        transform = <&default_transform>;
+        transform = <&transform0>;
         kscan = <&kscan0>;
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   30       0     0     0>
